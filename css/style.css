@@ -1,0 +1,277 @@
+
+/*CHANGE BODY MARGINS TO 0*/
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    text-align: center;
+    display: block;
+}
+
+header, section {
+    margin: 0;
+    padding: 1px;
+
+}
+
+footer {
+    background-color: #453d56;
+    font-family: 'Kumbh Sans', sans-serif;
+    color: #FAF0E6;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    font-size: larger;
+    border-top: 2px solid black;
+}
+div {
+    display: block;
+}
+.Heading h1 { /*Jodhi Parson*/
+    text-align: center;
+    font-family: 'Dancing Script', sans-serif;
+    font-size: 100px;
+    color: black;
+}
+.Heading h2 { /*I am a student at UGA and I love web development!*/
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size:xx-large;
+    color: black;
+}
+
+/*NAV*/
+nav{
+    background-color: #322d3d;
+    margin: 0 0 0 0;
+    font-size: larger;
+    display: flex;
+    justify-content: right;
+    border-bottom: 2px solid black;
+}
+
+nav a {
+    color: #FAF0E6;
+    background-color: #5C547055;
+    padding: 10px 15px; /*padding creates a more clickable area!*/
+    border-radius: 4px;
+    text-decoration: none;
+}
+nav a:hover{
+    background-color: #352F44; 
+    color: white;    
+    border-radius: 5px; 
+}
+
+footer a{
+    color: #FAF0E6;
+    background-color: #5C547055;
+    padding: 10px 15px; /*padding creates a more clickable area!*/
+    border-radius: 4px;
+    text-decoration: none;
+
+}
+footer a:hover{
+    background-color: #352F44; 
+    color: white;    
+    border-radius: 4px; 
+}
+
+/*SECTIONS*/
+.Heading {
+    padding: 100px;
+    background-color: #5C5470;
+    margin: 0 0 0 0;
+    text-align: center;
+}
+
+
+.Bio {
+    background-color: #B9B4C7;
+}
+.About {
+background-color: #B9B4C7;
+font-family: 'Jost', sans-serif;
+color: #B9B4C7;
+}
+
+.Message {
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.Message h2 {
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size:xx-large;
+}
+.Message p {
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size:x-large;
+}   
+/*.LanguagesCard {
+    font-family: 'Kumbh Sans', sans-serif;
+    background-color: #5C5470;
+    border-radius: 100px 100px;
+    margin-right: 50px;
+    text-align: center;
+    box-shadow: 10px 10px 10px 0 rgba(0,0,0,0.2);
+}
+*/
+.card {
+    font-family: 'Kumbh Sans', sans-serif;
+    background-color: #5C5470;
+    border-radius: 100px 100px;
+    text-align: center;
+    box-shadow: 25px 15px 25px 0 #FAF0E6;
+    margin-right: 50px;
+}
+
+.Languages {
+    
+    display: inline-block;
+    text-align: left;
+}
+/*.ExperienceCard {
+    font-family: 'Kumbh Sans', sans-serif;
+    background-color: #5C5470;
+    border-radius: 100px 100px;
+    margin-right: 50px;
+    text-align: center;
+    box-shadow: 10px 10px 10px 0 rgba(0,0,0,0.2);
+
+}
+*/
+.Experience {
+    display: inline-block;
+    text-align: left;
+}
+/*.SkillsCard {
+    font-family: 'Kumbh Sans', sans-serif;
+    background-color: #5C5470;
+    border-radius: 100px 100px;
+    margin-right: 50px;
+    text-align: center;
+    box-shadow: 10px 10px 10px 0 rgba(0,0,0,0.2);
+
+}
+*/
+.Skills {
+    display: inline-block;
+    text-align: left;
+}
+.Experience a{
+    color:#FAF0E6;
+    background-color: #FAF0E655;
+    border-radius: 4px; 
+    font-weight: bolder;
+    text-decoration: none;
+}
+.Experience a:hover {
+    color: #FAF0E6;
+    background-color: #FAF0E655;
+    text-decoration: underline; /*I did not remove underline here for my own preference; without underline would be text-decoration: none; */
+    
+}
+
+hr {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+.HeaderImages {
+background-color:#5C5470;
+display: flex;
+justify-content: space-around;
+grid-template-columns: 1fr 1fr 1fr;
+padding: 10px 0 10px 0;
+border-bottom: 2px solid black;
+  
+}
+.jodhi1 {
+    position: absolute;
+    top: 150px;
+    left: 150px;
+    border-radius: 5px;
+    border: 3px solid #322d3d;
+}
+
+.jodhi3 {
+    position: absolute;
+    top: 150px;
+    right: 100px;
+    border-radius: 5px;
+    border: 3px solid #322d3d;
+}
+.jodhi4 {
+    border-radius: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+}
+.jodhi5 {
+    border-radius: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+}
+.jodhi6 {
+    border-radius: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+}
+
+.three-col {
+    display: grid;
+    justify-self: auto;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-bottom: 20px;
+}
+
+
+.contactHeader {
+    background-color: #B9B4C7;
+    padding: 1px;
+}
+
+.contactHeader h1 {
+    text-align: center;
+    font-family: 'Dancing Script', sans-serif;
+    font-size: 100px;
+    color: black;
+}
+.contactHeader h2 {
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size:xx-large;
+    color: black;
+}
+
+.contactForm {
+    background-color: #B9B4C7;
+    padding: 1px;
+}
+
+
+
+.one-col {
+    width: auto;
+    height: 800px;
+    padding: 30px 0 30px 30px;
+    margin: 0;
+}
+
+form {
+    color: #FAF0E6;
+    padding: 10px 10px;
+}
+
+input[type="text"], input[type="email"], textarea {
+        width: 20%;
+        padding: 10px;
+        margin-bottom: 10px;
+        font-size: 16px;
+    
+}
